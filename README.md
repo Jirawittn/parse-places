@@ -1,0 +1,3 @@
+My problem2 web site is at https://jirawittn.github.io/parse-students-file/ and index.html is at https://github.com/Jirawittn/jirawit-4163-webapp-labs/tree/master/lab7 ,
+My problem3 web site is at https://jirawittn.github.io/parse-places/ and index.html is at https://github.com/Jirawittn/jirawit-4163-webapp-labs/tree/master/lab7 ,
+My problem4 web site is at https://jirawittn.github.io/fetch-jsonplacehodler/ and index.html is at https://github.com/Jirawittn/jirawit-4163-webapp-labs/tree/master/lab7

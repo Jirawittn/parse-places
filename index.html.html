@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places</title>
+</head>
+<body>
+    <ol id="place"></ol>
+    <script>
+        fetch('places.json').then(response => {
+            return response.json();
+        }).then(data => {
+            results = data.results
+            for (let person of results) {
+                let order = document.createElement("li");
+    
+                document.getElementById("place").appendChild(order).innerHTML += 
+                "<span style='color: blue;'>"  + "name = " + person.name + "</span>" + "<br>" +
+                "<span style='color: green;'>" + "location = " + person.geometry.location.lat + " " +
+                person.geometry.location.lng + "</span>" + "<br>";
+            }
+        }).catch( err => {
+            document.body.innerHTML ="Error";
+        });
+    </script>
+</body>
+</html>
+
